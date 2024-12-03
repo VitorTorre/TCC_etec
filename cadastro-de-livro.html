@@ -16,14 +16,24 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+  <section id="livros">
+    <h2>Gerenciamento de Livros</h2>
+    <form id="formLivro">
+      <input type="text" id="titulo" placeholder="Título" required>
+      <input type="text" id="autor" placeholder="Autor" required>
+      <input type="text" id="genero" placeholder="Gênero" required>
+      <textarea id="sinopse" placeholder="Sinopse" required></textarea>
+      <input type="file" name="aruqivo-do-livro" id="arquivo-livro">
+      <button type="submit" onclick="Cadadastrolivros()">Adicionar Livro</button>
+    </form>
+  </section>
+<br><br><br><br><br>
 
-    <div class="jumbotron text-center">
-        <h1>My First Bootstrap Page</h1>
-        <p>Resize this responsive page to see the effect!</p> 
-    </div>
-      
-    <input type="file" />
-    <div class="output"></div>
+<input type="file" />
+<div class="output"></div>
+<footer>
+  <p>Footer &@2024</p> 
+</footer>
 
     <script>
     const fileInput = document.querySelector("input[type=file]");
@@ -37,5 +47,6 @@
           }
         });
         </script>
+
 </body>
 </html>
