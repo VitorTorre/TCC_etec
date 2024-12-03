@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de livros da Dybit</title>
+    <style>
+        .output {
+  overflow: scroll;
+  margin: 1rem 0;
+  height: 200px;
+}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>My First Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p> 
+    </div>
+      
+    <input type="file" />
+    <div class="output"></div>
+
+    <script>
+    const fileInput = document.querySelector("input[type=file]");
+        const output = document.querySelector(".output");
+        
+        fileInput.addEventListener("change", async () => {
+          const [file] = fileInput.files;
+        
+          if (file) {
+            output.innerText = await file.text();
+          }
+        });
+        </script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros da Dybit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="22-11-2024/TCC Definitivo(index).css">
+    <link rel="shortcut icon" href="22-11-2024/imgs/logo-Dybit-3.jpg" type="x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
+    <script src="22-11-2024/TCC Definitivo(index).js" defer></script> 
+</head>
+<body>
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <p class="text">Biblioteca dinâmica</p>
+    </div>
+
+    <div class="topbar">
+        <div class="container">
+    
+          <address class="topbar-item">
+            <div class="icon">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            </div>
+    
+            <span class="span">
+              Endereço: São josé Dos Campos
+            </span>
+          </address>
+    
+          <div class="separator"></div>
+
+
+          <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Texto</span>
+        </div>
+
+        <a href="Telefone:(00)0000-000" class="topbar-item link">
+        <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+1 123 456789</span>
+    </a>
+
+    <div class="separator"></div>
+
+    <a href="biblioteca:dinamica1414@gmail.com" class="topbar-item link">
+        <div class="icon">
+        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">v.torresko2015@gmail.com</span>
+    </a>
+
+    </div>
+  </div>
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+        <a href="#" class="logo">
+            <img src="img.jpg" width="160" height="50" alt="Biblioteca dinâmica - Home">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="logo">
+                <img src="22-10-2024/imgs/logo-Dybit-2.jpg" width="160" height="50" alt="Biblioteca dinâmica - Home">
+            </a>
+
+            <ul class="navbar-list">
+
+              <li class="navbar-item">
+                <a href="home-Dybit.php" class="navbar-link hover-underline active">
+                    <div class="separator"></div>
+
+                    <span class="span">Home</span>
+                </a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="sobre.html" class="navbar-link hover-underline active">
+                    <div class="separator"></div>
+
+                    <span class="span">Sobre</span>
+                </a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="reading.html" class="navbar-link hover-underline active">
+                    <div class="separator"></div>
+
+                    <span class="span">Livros</span>
+                </a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="contato.html" class="navbar-link hover-underline active">
+                    <div class="separator"></div>
+
+                    <span class="span">Contato</span>
+                </a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="reading-books.html" class="navbar-link hover-underline active">
+                    <div class="separator"></div>
+
+                    <span class="span">Dinamismo</span>
+                </a>
+              </li>
+
+            </ul>
+
+            <div class="text-center">
+                <p class="headline-1 navbar-title">Visite-nos</p>
+
+                <address class="body-4">
+                    Biblioteca, SJC <br>
+                    Brasil
+                </address>
+
+                <p class="body-4 navbar-text">Horario: das 10:00 as 19:00</p>
+
+                <a href="biblioteca:dinamica1414@gmail.com" class="body-4 sidebar-link">biblioteca:dinamica1414@gmail.com</a>
+
+                <div class="separator"></div>
+
+                <p class="contacat-label">Requisito de livros</p>
+
+                <a href="tel:+546474567657657" class="body-1 contact-number hover-underline"> +88-123-123456</a>
+            </div>
+        </nav>
+
+        <a href="Libary view.html" class="btn btn-secondary">
+            <span class="text text-1">Ver livros</span>
+
+            <span class="text text-2" aria-hidden="true">Ver livros</span>
+        </a>
+
+        <a href="TCC Definitivo(login).php" class="btn btn-tertiary">
+          <span class="text text-3">Fazer login</span>
+
+          <span class="text text-4" aria-hidden="true">Fazer login</span>
+      </a>
+
+      <form class="form-inline">
+        <div class="input-group">
+            <input class="form-control" type="search" size="100%" placeholder="Procure aqui..." aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-violet my-0 my-sm-0" type="submit"><i class="bi bi-search"></i></button>
+            </div>
+        </div>
+      </form>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+
+        <section class="hero text-center" aria-label="home" id="home">
+
+            <ul class="hero-slider" data-hero-slider>
+                
+                <li class="slider-item active" data-hero-slider-item>
+
+                    <div class="slider-bg">
+                        <img src="Img/img-cover" width="1880" height="950" alt="" class="img-cover">
+                    </div>
+
+                    <p class="label-2 section-subtitle slider-reveal">O poder da leitura</p>
+
+                    <h1 class="display-1 hero-title sider-reveal">
+                        O poder da leitura <br>
+                        Transforma sua mentalidade.
+                    </h1>
+
+                        <span class="text text-2" aria-hidden="true">Veja nossos serviços</span>
+                    </a>
+
+                </li>
+
+                <li class="slider-item" data-hero-slider-item>
+
+                    <a href="Libary view.html" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">Ver livros</span>
+
+                        <span class="text text-2" aria-hidden="true">Ver livros</span>
+                    </a>
+
+
+                </li>
+
+
+            </ul>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                <ion-icon name="chevron-back"></ion-icon>
+              </button>
+      
+              <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                <ion-icon name="chevron-forward"></ion-icon>
+              </button>
+      
+              <a href="#listagem-de-livros.html" class="hero-btn has-after">
+                <img src="22-11-2024/imgs/entrada-libery.png" width="48" height="48" alt="booking icon">
+      
+                <span class="label-2 text-center span">Livros</span>
+              </a>
+
+        </section>
+
+
+        <section class="section service bg-black-10 text-center" aria-label="service">
+            <div class="container">
+    
+              <p class="section-subtitle label-2">Descrição de nossa História</p>
+    
+              <p class="section-text">
+                Nós iniciamos nossa história em meados do ano passado (2023), com a ideia de ler ler de forma distinta da comum, nesse ano de 2024 desenvolvemos as principais páginas visando desde o inico do desenvolvimento do projeto tinhamos como prinicpal objetivo incentivar a leitura na sociedade atual, atráves da diversidade de livros nacionais disposta na Dybit.
+              </p>
+            </div>
+        <main>
+        <section id="filtros">
+        <form>
+        <label>Gênero:</label>
+        <select id="genero">
+          <option value="todos">Todos</option>
+          <option value="fantasia">Ação</option>
+          <option value="fantasia">Aventura</option>
+          <option value="fantasia">Drama</option>
+          <option value="fantasia">Fantasia</option>
+          <option value="fantasia">Humor</option>
+          <option value="romance">Literatura Nacional</option>
+          <option value="romance">Romance</option>
+          <option value="romance">Best-sellers</option>
+        <!-- Adicione mais opções -->
+        </select>
+        <label>Autor:</label>
+        <input type="text" id="autor">
+        <button>Filtrar</button>
+        </form>
+        </section>
+      </section>
+        <section id="livros">
+            <h2>Best-sellers</h2>
+            <div class="livro" data-id="1">
+                <img src="_livro_o_poder_do_agora.jpg" alt="Capa do Livro 1">
+                <h3>O Poder do Agora</h3>
+                <p>Eckart Tolle</p>
+                <p>Preço: R$ 29,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="livro" data-id="2">
+                <img src="_livro2.jpg" alt="Capa do Livro 2">
+                <h3>Os Segredos da mente milhonária</h3>
+                <p>T.Harv Eker</p>
+                <p>Preço: R$ 39,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="livro" data-id="3">
+                <img src="_livro3.jpg" alt="Capa do Livro 3">
+                <h3>Os 7 hábitos de pessoas altamente saudáveis</h3>
+                <p>T.Harv Eker</p>
+                <p>Preço: R$ 39,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+        </section>
+        </main>
+            </div>
+        </section>
+    </article>
+  </main>
+        <script src="script.js"></script>
+</body>
+</html>
