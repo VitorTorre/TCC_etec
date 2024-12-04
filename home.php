@@ -1,6 +1,6 @@
-<?php
-session_start();
-require_once 'conexao.php';
+<? php
+session start()
+include 'MySQL/conexao.php';
 
 // Verifica se o usuário está logado
 if (!isset($_SESSION["usuario"])) {
