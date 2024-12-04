@@ -1,3 +1,8 @@
+<?php
+session start();
+include 'MySQL/conexao.php'
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -98,7 +103,7 @@
             <ul class="navbar-list">
 
               <li class="navbar-item">
-                <a href="home-Dybit.html" class="navbar-link hover-underline active">
+                <a href="home-Dybit.php" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Home</span>
@@ -114,7 +119,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="listagem-de-livros.html" class="navbar-link hover-underline active">
+                <a href="Reading.php" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Livros</span>
@@ -122,7 +127,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="contato.html" class="navbar-link hover-underline active">
+                <a href="contato.php" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Contato</span>
@@ -252,7 +257,7 @@
               </button>
       
               <a href="#" class="hero-btn has-after">
-                <img src="Imagens TCC/img.jpg" width="48" height="48" alt="booking icon">
+                <img src="22-11-2024/imgs/logo-Dybit3.jpg" width="48" height="48" alt="booking icon">
       
                 <span class="label-2 text-center span">Livros</span>
               </a>
@@ -278,7 +283,7 @@
     
                     <a href="#" class="has-before hover:shine">
                       <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                        <img src="Imagens TCC/_biblioteca1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                        <img src="sobre.html" width="285" height="336" loading="lazy" alt="Breakfast"
                           class="img-cover">
                       </figure>
                     </a>
@@ -301,7 +306,7 @@
     
                     <a href="#" class="has-before hover:shine">
                       <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                        <img src="Imagens TCC/_biblioteca2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                        <img src="22-11-2024/imgs/entrada-libery.png" width="285" height="336" loading="lazy" alt="Appetizers"
                           class="img-cover">
                       </figure>
                     </a>
@@ -322,9 +327,9 @@
                 <li>
                   <div class="service-card">
     
-                    <a href="#" class="has-before hover:shine">
+                    <a href="livros.php" class="has-before hover:shine">
                       <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                        <img src="Imagens TCC/_5cf7229f-48d1-4df5-b512-0193eee9d069.jpeg" width="285" height="336" loading="lazy" alt="Drinks"
+                        <img src="22-11-2024/imgs/espaço-de-leitura.png" width="285" height="336" loading="lazy" alt="Drinks"
                           class="img-cover">
                       </figure>
                     </a>
@@ -344,9 +349,9 @@
     
               </ul>
     
-              <img src="Imagens TCC/_5cf7229f-48d1-4df5-b512-0193eee9d069.jpeg" width="246" height="412" loading="lazy" alt="shape"
+              <img src="22-11-2024/imgs/logo-Dybit-3.jpg" width="246" height="412" loading="lazy" alt="shape"
                 class="shape shape-1 move-anim">
-              <img src="Imagens TCC/img.jpg" width="343" height="345" loading="lazy" alt="shape"
+              <img src="22-11-2024/imgs/logo-Dybit-3.jpg" width="343" height="345" loading="lazy" alt="shape"
                 class="shape shape-2 move-anim">
     
             </div>
@@ -381,7 +386,7 @@
     
               <figure class="about-banner">
     
-                <img src="Imagens TCC/_livro3.jpg" width="570" height="570" loading="lazy" alt="about banner"
+                <img src="22-11-2024/imgs/Os-7-habitos-das-pessoas-altamente-eficazes.jpg" width="570" height="570" loading="lazy" alt="about banner"
                   class="w-100" data-parallax-item data-parallax-speed="1">
     
                 <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
