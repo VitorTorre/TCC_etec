@@ -1,7 +1,3 @@
-<?php
-session_start();
-include 'MySQL/conexao.php';
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,9 +6,7 @@ include 'MySQL/conexao.php';
     <link rel="stylesheet" href="TCC definitivo(login).css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Login</title>
-
-
-
+    <link rel="shortcut icon" href="22-11-2024/imgs/logo-Dybit-3.jpg" type="image/x-icon">
     
     <link rel="preload" as="image" href="img.jpg">
     <link rel="preload" as="image" href="img.jpg">
@@ -27,12 +21,12 @@ include 'MySQL/conexao.php';
 
     <div class="preload" data-preaload>
         <div class="circle"></div>
-        <p class="text">Login</p>
+        <!--<p class="text">Login</p>-->
     </div>
     
     <div class="wrapper">
         <div class="form-container sign-in">
-            <form action="count-user.php" method="GET">
+            <form action="count-user.php" method="POST">
                 <h3>Login</h3>
                 <div class="username">
                     <input type="text" id="sign-in-username" required>
@@ -52,19 +46,19 @@ include 'MySQL/conexao.php';
             <form action="count-user.php" method="POST">
                 <h3>Cadastro</h3>
                 <div class="username">
-                    <input type="text" name="signup-username" required>
+                    <input type="text" id="signup-username" required>
                     <label for="signup-username"><i class="fa-solid fa-user"></i> Nome de usuario</label>
                 </div>
                 <div class="email">
-                    <input type="text" name="signup-email" required>
+                    <input type="text" id="signup-email" required>
                     <label for="signup-email"><i class="fa-solid fa-envelope"></i> Email</label>
                 </div>
                 <div class="password">
-                    <input type="password" name="signup-password" required>
+                    <input type="password" id="signup-password" required>
                     <label for="signup-email"><i class="fa-solid fa-lock"></i> Senha</label>
                 </div>
                 <div class="confirm-password">
-                    <input type="password" name="confirm-signup-password" required>
+                    <input type="password" id="confirm-signup-password" required>
                     <label for="confirm-signup-email"><i class="fa-solid fa-lock"></i> Confirmar senha</label>
                 </div>
                 <button class="signup-btn">Criar conta</button>
