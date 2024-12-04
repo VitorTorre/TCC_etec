@@ -1,9 +1,13 @@
+<?php
+session_start();
+include 'MySQL/conexao.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Dybit/TCC definitivo(login).css">
+    <link rel="stylesheet" href="TCC definitivo(login).css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Login</title>
 
@@ -28,7 +32,7 @@
     
     <div class="wrapper">
         <div class="form-container sign-in">
-            <form action="Login_de_usuarios.php" method="GET">
+            <form action="count-user.php" method="GET">
                 <h3>Login</h3>
                 <div class="username">
                     <input type="text" id="sign-in-username" required>
@@ -45,7 +49,7 @@
             </form>
         </div>
         <div class="form-container sign-up">
-            <form action="cadastro_de_usuario.php" method="POST">
+            <form action="count-user.php" method="POST">
                 <h3>Cadastro</h3>
                 <div class="username">
                     <input type="text" name="signup-username" required>

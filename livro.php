@@ -12,7 +12,7 @@ if ($result->num_rows > 0) {
   <h1><?php echo $row['titulo']; ?></h1>
   <p>Autor: <?php echo $row['autor']; ?></p>
   <p>Sinopse: <?php echo $row['sinopse']; ?></p>
-  <p>Valor: <?php echo $row['valor']; ?></p>
+  <p>Valor: <?php echo $row['sinopse']; ?></p>
   <?php
 } else {
   echo "Livro não encontrado.";

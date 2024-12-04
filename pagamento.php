@@ -1,6 +1,4 @@
-<? php
-session start()
-include 'MySQL/conexao.php';
+<?php
 // Recuperar código de compra
 $codigo_compra = $_GET['codigo_compra'];
 

@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(gold, black);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+body.loaded { overflow: overlay; }
+
+.wrapper{
+    padding: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+   }
+
+.wrapper .form-container{
+    padding: 30px;
+    width: 340px;
+    background: #fff;
+    border-radius: 7px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.wrapper .form-container h3{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.wrapper .sign-in .username,
+.wrapper .sign-in .password,
+.wrapper .sign-up div{
+    height: 45px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.wrapper .sign-in .username,
+.wrapper .sign-up .username{
+    margin-top: 30px;
+}
+
+.wrapper .sign-in .username input,
+.wrapper .sign-in .password input,
+.wrapper .sign-up div input{
+    all:unset;
+    height: 42px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.wrapper .sign-in .username label,
+.wrapper .sign-in .password label,
+.wrapper .sign-up div label{
+    position: relative;
+    top: -32px;
+    left: 15px;
+    transition: all .2s;
+    font-size: 15px;
+}
+
+.sign-in .username input:focus ~ #sign-in-username-label,
+.sign-in .username input:valid ~ #sign-in-password-label,
+.sign-in .password input:focus ~ #sign-in-password-label,
+.sign-in .password input:valid ~ #sign-in-password-label
+{
+    top: -55px;
+    font-size: 12px;
+    transition: all .2s;
+    background: #fff;
+    padding: 2px;
+}
+
+.sign-up div input:focus ~ label,
+.sign-up div input:valid ~ label{
+    top: -55px;
+    font-size: 12px;
+    transition: all .2s;
+    background: #fff;
+    padding: 2px;
+}
+
+.wrapper .sign-in .password input::-ms-reveal,
+.wrapper .sign-up .password input::-ms-reveal,
+.wrapper .sign-up .confirm-password input::-ms-reveal{
+    margin-right: 20px;
+}
+
+.wrapper .sign-in .frgt-pass{
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+}
+
+.wrapper .sign-in .frgt-pass:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.wrapper .sign-in .login-btn,
+.wrapper .sign-up .signup-btn{
+    all: unset;
+    height: 40px;
+    width: 100%;
+    background: linear-gradient( gold, black);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.wrapper .sign-in .dnt-have-account,
+.wrapper .sign-up .alrd-have-account{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.wrapper .sign-in .dnt-have-account span,
+.wrapper .sign-up .alrd-have-account span{
+    color: #000;
+}
+.wrapper .sign-in .dnt-have-account span:hover,
+.wrapper .sign-up .alrd-have-account span:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.wrapper .sign-up h3{
+    margin-top: 10px;
+}
+
+.wrapper .sign-in{
+    z-index: 1;
+}
+
+.wrapper .sign-up{
+    transform: translate(-50%, -50%) rotate(7deg);
+}
+
+.wrapper.animated-signin .sign-in{
+    animation: signin 1s ease-in-out forwards;
+}
+
+.wrapper.animated-signup .sign-up{
+    animation: signup 1s ease-in-out forwards;
+}
+
+.wrapper.animated-signin .sign-up{
+    animation: rotate-card .7s ease-in-out forwards;
+}
+
+.wrapper.animated-signup .sign-in{
+    transform: translate(-50%, -50%) rotate(7deg);
+    animation: rotate-card-signin .7s ease-in-out forwards;
+    animation-delay: .3s;
+}
+
+
+@keyframes signin{
+    0%{
+        transform:translate(-50%,-50%) translateX(0);
+    }
+    50%{
+        transform:translate(-50%,-50%) translateX(-25rem);
+    }
+    100%{
+        transform: translate(-50%,-50%) translateX(0) rotate(7deg) scale(1);
+    }
+}
+
+@keyframes signup{
+    0%{
+        transform:translate(-50%,-50%) translateX(0);
+        z-index:1;
+    }
+    50%{
+        transform:translate(-50%,-50%) translateX(-25rem);
+    }
+    100%{
+        transform: translate(-50%,-50%) translateX(0) rotate(7deg) scale(1);
+    }
+}
+
+@keyframes rotate-card{
+    0%{
+        transform: translate(-50%, -50%) rotate(7deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(0deg);
+        z-index: 1;
+    }
+}
+
+@keyframes rotate-card-signin{
+    0%{
+        transform: translate(-50%, -50%) rotate(7deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(0deg);
+        z-index: 1;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modal-content button:hover {
+    background: #0056b3;
+}
+
+.modal-content .btn-fechar {
+    background: #d9534f;
+}
+
+.modal-content .btn-fechar:hover {
+    background: #c9302c;
+}
