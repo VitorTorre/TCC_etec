@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates' , sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(90deg, gold, black);
+}
+
+.card {
+    margin-top: 5px;
+    margin-left: 5px;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.card h4{
+    margin-top: 4px;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+
+.buy-or-rent{
+    margin: 7px;
+    margin-left: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.buy-or-rent button{
+    width: 110px;
+    height: 34px;
+    margin-top: 4.5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.buy-or-rent button:hover{
+    background: #000;
+}
+
+.buy-or-rent button a:hover{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.availability{
+    max-width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-top: -25%;
+    border: 4px solid aqua;
+}
+
+.availability h4{
+    margin: 11px;
+    color: aqua;
+}
+
+.you-might-like{
+  max-width: 305px;
+  margin-left: 50%;
+  margin-top: 10%;
+  border: 2px solid #000;
+}
+
+.you-might-like img{
+    width: 220px;
+}

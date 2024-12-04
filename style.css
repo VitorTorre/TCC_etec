@@ -2,17 +2,15 @@
     box-sizing: border-box;
 }
 :root {
-  --cor-principal: #0d1c27;
+  --cor-principal: #3498db;
   --cor-secundaria: #f1c40f;
   --fonte-padrao: 'Open Sans', sans-serif;
 }
 
 body {
   font-family: var(--fonte-padrao);
-  background :linear-gradient(gold,black);
-  background:var(rgb(203, 193, 138), rgb(233, 233, 179) );
-  margin: 10px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -172,149 +170,6 @@ nav ul {
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-.column-medium{
-  padding: 3px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#filtros{
+  
 }
-
-.column-specific{
-  padding: 3px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-40%, -40%);
-}
-
-.big-column{
-  padding: 3px;
-  position: relative;
-  display: inline-block;
-  top: 30%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-}
-
-#livros img {
-  width: 200px;
-  height: 200px;
-}
-
-        /* Estilos gerais da seção de filtro */
-        #filtrar {
-          position: fixed; /* Fixa a seção à esquerda da tela */
-          top: 25px; /* Distância do topo da tela */
-          left: 0; /* Fixa no lado esquerdo */
-          width: 250px, -40%; /* Largura do filtro */
-          padding: 20px;
-          background-color: #f4f4f4; /* Cor de fundo suave */
-          border-radius: 8px; /* Bordas arredondadas */
-          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
-          font-family: Arial, sans-serif; /* Fonte simples e legível */
-          z-index: 1000; /* Garante que o filtro fique acima de outros conteúdos */
-      }
-
-      /* Espaçamento entre os elementos */
-      #filtrar input,
-      #filtrar label {
-          display: block; /* Faz os elementos ocuparem toda a largura */
-          margin-bottom: 10px; /* Espaço abaixo de cada elemento */
-      }
-
-      /* Estilos dos checkboxes */
-      #filtrar input[type="checkbox"] {
-          margin-right: 10px; /* Espaço entre o checkbox e o texto */
-      }
-
-      /* Estilos para o campo de número */
-      #filtrar input[type="number"] {
-          padding: 8px;
-          width: 100%; /* Faz o campo de número ocupar toda a largura disponível */
-          font-size: 16px;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          box-sizing: border-box; /* Inclui padding e borda no tamanho total */
-      }
-
-      /* Estilos para os labels */
-      #filtrar label {
-          font-weight: bold; /* Torna o texto do label mais forte */
-          color: #333; /* Cor de texto escura */
-      }
-
-      /* Estilo para o checkbox "Best Sellers" */
-      #filtrar input[type="checkbox"]#best-sellers {
-          margin-left: 0; /* Remove o deslocamento à esquerda do último checkbox */
-      }
-
-      /* Hover no campo de número */
-      #filtrar input[type="number"]:focus {
-          border-color: #4CAF50; /* Cor da borda quando o campo está em foco */
-          outline: none; /* Remove o contorno padrão */
-      }
-
-      /* Estilo para o título "Generos" */
-      #filtrar label[for="genero-literario"] {
-          font-size: 18px; /* Tamanho maior para o título */
-          margin-top: 10px; /* Adiciona um espaço acima */
-      }
-     
-      @media (max-width: 600px) {
-        #filtrar {
-            width: 100%; /* Aumenta a largura para ocupar a tela inteira em dispositivos móveis */
-            top: 0; /* Alinha o filtro ao topo da tela */
-            left: 0; /* Garante que o filtro ainda fique à esquerda */
-        }
-    }
-
-    .modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 1000;
-  }
-  
-  .modal-content {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      text-align: center;
-  }
-  
-  .modal-content h2 {
-      margin-top: 0;
-  }
-  
-  .modal-content button {
-      margin: 10px;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      background: #007BFF;
-      color: white;
-      cursor: pointer;
-      transition: background 0.3s;
-  }
-  
-  .modal-content button:hover {
-      background: #0056b3;
-  }
-  
-  .modal-content .btn-fechar {
-      background: #d9534f;
-  }
-  
-  .modal-content .btn-fechar:hover {
-      background: #c9302c;
-  }
-  

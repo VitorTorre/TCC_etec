@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background :linear-gradient(gold,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-summary img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.details {
+    text-align: left;
+}
+
+.details h2 {
+    color: #444;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    color: #888;
+    font-size: 16px;
+}
+
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button.btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button.btn:hover {
+    background-color: #218838;
+}
+
+#confirmation-message {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}

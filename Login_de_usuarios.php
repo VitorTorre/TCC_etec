@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login de usuario</title>
-    <link rel="shortcut icon" href="22-11-2024/imgs/logo-Dybit-3.jpg" type="x-icon">
   </head>
   <body>
     <div class="container">

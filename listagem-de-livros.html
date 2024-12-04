@@ -6,11 +6,6 @@
     <title>Livros da Dybit</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="22-11-2024/TCC Definitivo(index).css">
-    <link rel="shortcut icon" href="22-11-2024/imgs/logo-Dybit-3.jpg" type="x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
     <script src="22-11-2024/TCC Definitivo(index).js" defer></script> 
 </head>
 <body>
@@ -93,7 +88,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="sobre.html" class="navbar-link hover-underline active">
+                <a href="#home" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Sobre</span>
@@ -101,7 +96,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="Livros-pdf/" class="navbar-link hover-underline active">
+                <a href="#home" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Livros</span>
@@ -109,7 +104,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="contato.html" class="navbar-link hover-underline active">
+                <a href="#home" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Contato</span>
@@ -117,7 +112,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="reading-books.html" class="navbar-link hover-underline active">
+                <a href="#home" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Dinamismo</span>
@@ -152,20 +147,11 @@
             <span class="text text-2" aria-hidden="true">Ver livros</span>
         </a>
 
-        <a href="TCC Definitivo(login).php" class="btn btn-tertiary">
+        <a href="TCC Definitivo(login).html" class="btn btn-tertiary">
           <span class="text text-3">Fazer login</span>
 
           <span class="text text-4" aria-hidden="true">Fazer login</span>
       </a>
-
-      <form class="form-inline">
-        <div class="input-group">
-            <input class="form-control" type="search" size="100%" placeholder="Procure aqui..." aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-outline-violet my-0 my-sm-0" type="submit"><i class="bi bi-search"></i></button>
-            </div>
-        </div>
-      </form>
 
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">
             <span class="line line-1"></span>
@@ -189,7 +175,7 @@
                 <li class="slider-item active" data-hero-slider-item>
 
                     <div class="slider-bg">
-                        <img src="Img/img-cover" width="1880" height="950" alt="" class="img-cover">
+                        <img src="Imagens TCC/_biblioteca2.jpg" width="1880" height="950" alt="" class="img-cover">
                     </div>
 
                     <p class="label-2 section-subtitle slider-reveal">O poder da leitura</p>
@@ -249,15 +235,9 @@
         <form>
         <label>Gênero:</label>
         <select id="genero">
-          <option value="todos">Todos</option>
-          <option value="fantasia">Ação</option>
-          <option value="fantasia">Aventura</option>
-          <option value="fantasia">Drama</option>
-          <option value="fantasia">Fantasia</option>
-          <option value="fantasia">Humor</option>
-          <option value="romance">Literatura Nacional</option>
-          <option value="romance">Romance</option>
-          <option value="romance">Best-sellers</option>
+        <option value="todos">Todos</option>
+        <option value="romance">Romance</option>
+        <option value="fantasia">Fantasia</option>
         <!-- Adicione mais opções -->
         </select>
         <label>Autor:</label>
@@ -265,7 +245,6 @@
         <button>Filtrar</button>
         </form>
         </section>
-      </section>
         <section id="livros">
             <h2>Best-sellers</h2>
             <div class="livro" data-id="1">

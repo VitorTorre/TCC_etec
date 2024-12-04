@@ -26,7 +26,7 @@
     
     <div class="wrapper">
         <div class="form-container sign-in">
-            <form action="count-user.php" method="POST">
+            <form action="Login_de_usuarios.php" method="POST">
                 <h3>Login</h3>
                 <div class="username">
                     <input type="text" id="sign-in-username" required>

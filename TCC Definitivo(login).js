@@ -37,14 +37,3 @@ formLogin.addEventListener('submit', async (e) => {
     mensagem.innerHTML = 'Usuário ou senha inválidos!';
   }
 });
-
-let wrapper = document.querySelector('.wrapper');
-
-function signup() {
-  wrapper.classList.add("animated-signin");
-  wrapper.classList.remove("animated-signup");
-}
- let signin = () => {
-  wrapper.classList.add("animated-signup");
-  wrapper.classList.remove("animated-signin");
- }

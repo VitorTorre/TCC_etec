@@ -98,7 +98,7 @@
             <ul class="navbar-list">
 
               <li class="navbar-item">
-                <a href="home-Dybit.php" class="navbar-link hover-underline active">
+                <a href="home-Dybit.html" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Home</span>
@@ -114,7 +114,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="reading.html" class="navbar-link hover-underline active">
+                <a href="listagem-de-livros.html" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Livros</span>
@@ -171,16 +171,16 @@
           </svg> <i class="bi bi-person-fill"></i>
         <br>
         <form action="/action_page.php" class="form-container"> 
-        <h1>User()</h1><!-- Exibe a quantidade de livros já lidos pelo usuário -->
-        <label for="email"><b>Quantidade de livros lido pelo usuario</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required><!--- Exibe a quantidade de livros já comprado pelo usuário-->
-        <label for="psw"><b>Quantidade de livros comprado pelo usuario</b></label>
-        <span id="qtn-lidos-user"></span>
-        <button type="button" class="btn cancel" onclick="logoutuser()">logout</button>
+        <h1>User()</h1>
+        <label for="email"><b>Exibir quantidade de livros lido pelo usuario</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <label for="psw"><b>Exibir quantidade de livros comprado pelo usuario</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </form>
         </div>
         
-       </span>  
+       </span>
       </a>
 
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">

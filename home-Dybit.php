@@ -82,7 +82,7 @@
     <div class="container">
 
         <a href="#home-Dybit.php" class="logo">
-            <img src="22-11-2024/imgs/logo-Dybit-3.jpg" width="160px" height="80px" alt="Biblioteca dinâmica - Home">
+            <img src="22-11-2024/imgs/logo-Dybi.jpg" width="160" height="80" alt="Biblioteca dinâmica - Home">
         </a>
 
         <nav class="navbar" data-navbar>
@@ -92,7 +92,7 @@
             </button>
 
             <a href="#" class="logo">
-                <img src="22-11-2024/imgs/logo-Dybit-3.jpg" width="160px" height="50px" alt="Biblioteca dinâmica - Home">
+                <img src="22-11-2024/imgs/logo-Dybit-3.jpg" width="160" height="50" alt="Biblioteca dinâmica - Home">
             </a>
 
             <ul class="navbar-list">
@@ -114,7 +114,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="reading.html" class="navbar-link hover-underline active">
+                <a href="listagem-de-livros.html" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Livros</span>
@@ -122,7 +122,7 @@
               </li>
 
               <li class="navbar-item">
-                <a href="contato.php" class="navbar-link hover-underline active">
+                <a href="contatos.html" class="navbar-link hover-underline active">
                     <div class="separator"></div>
 
                     <span class="span">Contato</span>
@@ -255,7 +255,7 @@
             <ion-icon name="chevron-forward"></ion-icon>
           </button>
   
-          <a href="reading.html" class="hero-btn has-after">
+          <a href="#" class="hero-btn has-after">
             <img src="22-11-2024/imgs/Impacto-da-leitura.png" width="48" height="48" alt="booking icon">
       
                 <span class="label-2 text-center span">Livros</span>
@@ -804,16 +804,15 @@
           <ul class="grid-list">
 
             <li class="feature-item">
-              <div class="feature-card"> <a href="livros.php">
-              
+              <div class="feature-card">
+
                 <div class="card-icon">
-                  <img src="22-11-2024/imgs/o-poder-do-agora.jpg" width="100" height="80" loading="lazy" alt="icon">
+                  <img src="Imagens TCC/_livro_o_poder_do_agora.jpg" width="100" height="80" loading="lazy" alt="icon">
                 </div>
 
                 <h3 class="title-2 card-title">Livros de qualidade</h3>
 
                 <p class="label-1 card-text">Os melhores titúlos do mercado você encontra aqui</p>
-                </a>
 
               </div>
             </li>
@@ -822,7 +821,7 @@
               <div class="feature-card">
 
                 <div class="card-icon">
-                  <img src="22-11-2024/imgs/entrada-libery.jpeg" width="100" height="80" loading="lazy" alt="icon">
+                  <img src="Imagens TCC/_5cf7229f-48d1-4df5-b512-0193eee9d069.jpeg" width="100" height="80" loading="lazy" alt="icon">
                 </div>
 
                 <h3 class="title-2 card-title">Serviço dinâmico</h3>
@@ -862,7 +861,7 @@
 
           </ul>
 
-          <img src="22-11-2024/imgs/o-poder-do-agora.jpg" width="208" height="178" loading="lazy" alt="shape"
+          <img src="Imagens TCC/_livro_o_poder_do_agora.jpg" width="208" height="178" loading="lazy" alt="shape"
             class="shape shape-1">
 
           <img src="Imagens TCC/_loader.gif" width="120" height="115" loading="lazy" alt="shape"
@@ -1025,7 +1024,7 @@
         </li>
 
         <li>
-          <a href="sobre.html" class="label-2 footer-link hover-underline">Sobre</a>
+          <a href="#" class="label-2 footer-link hover-underline">Sobre</a>
         </li>
 
         <li>
@@ -1033,7 +1032,7 @@
         </li>
 
         <li>
-          <a href="contato.php" class="label-2 footer-link hover-underline">Contact</a>
+          <a href="#" class="label-2 footer-link hover-underline">Contact</a>
         </li>
 
       </ul>

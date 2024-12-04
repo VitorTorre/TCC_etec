@@ -43,7 +43,7 @@
             </form>
         </div>
         <div class="form-container sign-up">
-            <form action="count-user.php" method="POST">
+            <form action="cadastro_de_usuario.php" method="POST">
                 <h3>Cadastro</h3>
                 <div class="username">
                     <input type="text" id="signup-username" required>
