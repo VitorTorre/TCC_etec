@@ -11,6 +11,6 @@
         VALUES ('$nome', '$email', '$senha', '$confirmar_senha')";
        
     
-      header('Location: TCC Definitivo(index).html');
+      header('Location: home-Dybit.php');
 
 ?>
