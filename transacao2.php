@@ -47,6 +47,7 @@
             const precoTotal = (precoUnitario * quantidade).toFixed(2);
             alert(`Compra finalizada! Produto(s): ${quantidade} | Preço Total: R$ ${precoTotal}`);
         }
+        window.location.href = "finalizacao2.php?resultado=" + resultado;
 
         function cancelarCompra() {
             alert("Compra cancelada.");

@@ -12,17 +12,16 @@
 
         <!-- Resumo do Produto -->
         <div class="product-summary">
-            <img src="https://via.placeholder.com/200" alt="Produto">
+            <img src="22-11-2024/imgs/iracema.jfif" alt="Produto">
             <div class="details">
-                <h2>Produto Exemplo</h2>
-                <p><strong>Preço Unitário:</strong> R$ 99,99</p>
-                <p><strong>Quantidade:</strong> <span id="quantidade-final">1</span></p>
-                <p><strong>Preço Total:</strong> R$ <span id="preco-total-final">99,99</span></p>
+                <h2>Iracema</h2>
+                <p><strong id="quantidade">Quantidade:</strong> <span id="quantidade-final">1</span></p>
+                <p><strong>Preço Total:</strong> R$ <span id="Preco-total">29,90</span></p>
             </div>
         </div>
 
         <!-- Formulário de Pagamento -->
-        <h2>Dados de Pagamento</h2>
+        
 
             <button type="submit" class="btn"><a href="Libary view.php">Voltar</button>
         </form>
@@ -41,6 +40,8 @@
             // Aqui você pode processar o pagamento ou fazer qualquer outro processo
             document.getElementById('confirmation-message').style.display = 'block';
             form.style.display = 'none';
+
+        
         });
     </script>
 </body>

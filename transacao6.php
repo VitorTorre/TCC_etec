@@ -21,7 +21,7 @@
                 <label for="quantidade">Quantidade:</label>
                 <input type="number" id="quantidade" name="quantidade" min="1" value="1" onchange="atualizarPreco()">
 
-                <p id="preco-total">Preço Total: R$ 99,99</p>
+                <p id="preco-total">Preço Total: R$ 25,90</p>
             </div>
         </div>
 

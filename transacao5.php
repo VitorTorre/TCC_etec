@@ -13,15 +13,15 @@
         <h1>Detalhes da Compra</h1>
 
         <div class="product-info">
-            <img src="https://via.placeholder.com/200" alt="Produto">
+            <img src="h22-11-2024/imgs/Platao.jfif" alt="Produto">
             <div class="details">
-                <h2>Produto Exemplo</h2>
-                <p>Preço Unitário: R$ 99,99</p>
+                <h2>A Republica</h2>
+                <p>Preço Unitário: R$ 20,90</p>
 
                 <label for="quantidade">Quantidade:</label>
                 <input type="number" id="quantidade" name="quantidade" min="1" value="1" onchange="atualizarPreco()">
 
-                <p id="preco-total">Preço Total: R$ 99,99</p>
+                <p id="preco-total">Preço Total: R$ 20,90</p>
             </div>
         </div>
 
@@ -34,7 +34,7 @@
     </div>
 
     <script>
-        const precoUnitario = 99.99;
+        const precoUnitario = 20.90;
 
         function atualizarPreco() {
             const quantidade = document.getElementById('quantidade').value;

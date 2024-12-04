@@ -32,6 +32,7 @@
     </div>
 
     <script>
+        
         const form = document.getElementById('payment-form');
         form.addEventListener('submit', function(event) {
             event.preventDefault(); // Impede o envio real do formulário
@@ -39,7 +40,17 @@
             // Aqui você pode processar o pagamento ou fazer qualquer outro processo
             document.getElementById('confirmation-message').style.display = 'block';
             form.style.display = 'none';
+
         });
+
+        const params = new URLSearchParams(window.location.search);
+        const resultado = params.get('resultado');
+
+        if(resultado) {
+            document.body.InnerHTML = "Compra deu:" + resultado;
+        } else {
+            document.body.InnerHTML "Nenhum resultado encontrado";
+        }
     </script>
 </body>
 </html>

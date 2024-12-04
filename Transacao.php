@@ -13,7 +13,7 @@
         <h1>Detalhes da Compra</h1>
 
         <div class="product-info">
-            <img src="https://via.placeholder.com/200" alt="Produto">
+            <img src="22-11-2024/imgs/a-Carteira-Machado-de-Asis.jpg" alt="Produto">
             <div class="details">
                 <h2>A Carteira</h2>
                 <p>Preço Unitário: R$ 37.90</p>
@@ -21,7 +21,7 @@
                 <label for="quantidade">Quantidade:</label>
                 <input type="number" id="quantidade" name="quantidade" min="1" value="1" onchange="atualizarPreco()">
 
-                <p id="preco-total">Preço Total: R$ 99,99</p>
+                <p id="preco-total">Preço Total: R$ 37,90</p>
             </div>
         </div>
 

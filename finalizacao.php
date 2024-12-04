@@ -12,12 +12,11 @@
 
         <!-- Resumo do Produto -->
         <div class="product-summary">
-            <img src="https://via.placeholder.com/200" alt="Produto">
+            <img src="22-11-2024/imgs/a-carteira-Machado-de-Asis.jpg" alt="Produto">
             <div class="details">
-                <h2>Produto Exemplo</h2>
-                <p><strong>Preço Unitário:</strong> R$ 99,99</p>
+                <h2>A Carteira</h2>
                 <p><strong>Quantidade:</strong> <span id="quantidade-final">1</span></p>
-                <p><strong>Preço Total:</strong> R$ <span id="preco-total-final">99,99</span></p>
+                <p><strong>Preço Total:</strong> R$ <span id="preco-total-final">37,90</span></p>
             </div>
         </div>
 

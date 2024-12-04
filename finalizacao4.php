@@ -14,15 +14,14 @@
         <div class="product-summary">
             <img src="https://via.placeholder.com/200" alt="Produto">
             <div class="details">
-                <h2>Produto Exemplo</h2>
+                <h2>Peter pan</h2>
                 <p><strong>Quantidade:</strong> <span id="quantidade-final">1</span></p>
-                <p><strong>Preço Total:</strong> R$ <span id="preco-total-final"  min="1" value="1" onchange="atualizarPreco()"></span></p>
+                <p><strong>Preço Total:</strong> R$ <span id="preco-total-final"  min="1" value="1" onchange="atualizarPreco()">22,90</span></p>
             </div>
         </div>
 
         <!-- Formulário de Pagamento -->
-        <h2>Dados de Pagamento</h2>
-
+       
             <button type="submit" class="btn"><a href="Libary view.php">Voltar</button>
         </form>
 
