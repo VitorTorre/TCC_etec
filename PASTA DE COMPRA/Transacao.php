@@ -49,6 +49,22 @@
         function cancelarCompra() {
             alert("Compra cancelada.");
         }
+
+
+        <?php
+         include "MySql/.php";
+         $id = $_POST['id'];
+         $nome = $_POST['resultado'];
+         $sql = "INSERT INTO `usuarios` (`id`, `nome`,,
+         VALUES ('$nome',)";
+        
+     
+       header('Location: count-user.php');
+        
+        ?>
+
+        
+        
     </script>
 </body>
 </html>
