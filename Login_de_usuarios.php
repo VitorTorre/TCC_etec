@@ -29,7 +29,7 @@
  {
     unset($_SESSION['email']);
     unset($_SESSION['senha']);
-    header('Location: home-Dybit.php');
+    header('Location: Libary view.php');
  }
  else
  {
@@ -51,7 +51,7 @@
  
    if ($result->num_rows > 0) {
      $_SESSION["usuario"] = $email;
-     header("Location: home-Dybit.php");
+     header("Location: Libary view.php");
      exit;
    } else {
      echo "Login ou senha incorretos!";

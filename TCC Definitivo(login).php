@@ -29,11 +29,11 @@
             <form action="count-user.php" method="POST">
                 <h3>Login</h3>
                 <div class="username">
-                    <input type="text" id="sign-in-username" required>
+                    <input type="text" name="sign-in-username" required>
                     <label id="sign-in-username-label" for="sign-in-username"><i class="fa-solid fa-user"></i>Email</label>
                 </div>
                 <div class="password">
-                    <input type="password" id="sign-in-password" required>
+                    <input type="password" name="sign-in-password" required>
                     <label id="sign-in-password-label" for="sign-in-password"><i class="fa-solid fa-lock"></i> Senha</label>
                 </div>
                 <div class="frgt-pass">Esqueceu a senha?</div>
@@ -46,22 +46,18 @@
             <form action="cadastro_de_usuario.php" method="POST">
                 <h3>Cadastro</h3>
                 <div class="username">
-                    <input type="text" id="signup-username" required>
+                    <input type="text" name="username" required>
                     <label for="signup-username"><i class="fa-solid fa-user"></i> Nome de usuario</label>
                 </div>
                 <div class="email">
-                    <input type="text" id="signup-email" required>
+                    <input type="text" name="email" required>
                     <label for="signup-email"><i class="fa-solid fa-envelope"></i> Email</label>
                 </div>
                 <div class="password">
-                    <input type="password" id="signup-password" required>
+                    <input type="password" name="password" required>
                     <label for="signup-email"><i class="fa-solid fa-lock"></i> Senha</label>
                 </div>
-                <div class="confirm-password">
-                    <input type="password" id="confirm-signup-password" required>
-                    <label for="confirm-signup-email"><i class="fa-solid fa-lock"></i> Confirmar senha</label>
-                </div>
-                <button class="signup-btn">Criar conta</button>
+                <button type="submit" class="signup-btn">Criar conta</button>
                 <p class="alrd-have-account">Já possui conta? <span onclick="signin()">Entre</span></p>
             </form>
         </div>
