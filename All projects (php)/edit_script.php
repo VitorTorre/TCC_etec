@@ -24,7 +24,7 @@
         VALUES ('$nome','$endereco','$telefone','$email','$data_nascimento')";
 
         
-$sql = "UPDATE `pessoas` set `nome` = '$nome', `endereco` = '$endereco', `telefone` = '$telefone', `email` = '$email', `data nasc` = '$data_nascimento' WHERE cod_pessoa = $id";
+$sql = "UPDATE `pessoas` set `nome` = '$nome', `endereco` = '$endereco', `telefone` = '$telefone', `email` = '$email', `data_nasc` = '$data_nascimento' WHERE cod_pessoa = $id";
 
         if (mysqli_query($conn, $sql)) {
            mensagem("$nome alterado com sucesso!",'success');
