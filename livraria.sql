@@ -20,6 +20,38 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `livros`
 --
 
+-- phpMyAdmin SQL Dump
+-- version 3.4.9
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tempo de Geração: 11/12/2024 às 20h24min
+-- Versão do Servidor: 5.5.20
+-- Versão do PHP: 5.3.9
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Banco de Dados: `livraria`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `pedidos_simples2`
+--
+
+CREATE TABLE IF NOT EXISTS `pedidos_simples2` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(255) NOT NULL,
+  `autor` varchar(255) NOT NULL,
+  `preco` decimal(10,2) NOT NULL,
+  `data_pedido` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
 DROP TABLE IF EXISTS `livros`;
 CREATE TABLE IF NOT EXISTS `livros` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
