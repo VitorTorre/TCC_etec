@@ -1,0 +1,13 @@
+# Estrutura de pastas
+
+projeto/
+|--- conexao.php
+|--- cadastro.php
+|--- index.php
+|--- modelos/
+|    |--- Usuario.php
+|--- views/
+|    |--- cadastro.html
+|    |--- sucesso.html
+|--- controller/
+|    |--- CadastroController.php
